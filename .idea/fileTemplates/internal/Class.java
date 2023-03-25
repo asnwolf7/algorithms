@@ -1,4 +1,8 @@
-#parse("File Header.java")
+/**
+* ${desciption}
+* @Author: Beihai
+* @Create: ${DATE}
+*/
 
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 
