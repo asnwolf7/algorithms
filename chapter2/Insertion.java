@@ -7,6 +7,7 @@
 
 package chapter2;
 
+import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Comparator;
@@ -91,6 +92,8 @@ public class Insertion {
     }
 
     public static void main(String[] args) {
-
+        String[] a = StdIn.readAllStrings();
+        Insertion.sort(a);
+        show(a);
     }
 }
